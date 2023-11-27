@@ -1,12 +1,15 @@
+<script setup lang="ts">
+const {x, y} = useMouse();
+</script>
+
+
 <template>
   <div>
-hello world
+hello world {{ x }}, {{ y }}
   </div>
 </template>
 
-<script setup lang="ts">
 
-</script>
 
 <style scoped>
 
