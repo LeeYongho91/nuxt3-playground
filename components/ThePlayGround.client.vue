@@ -63,6 +63,7 @@ async function startDevServer() {
 
   // `npm run dev`
   const devProcess = await wc.spawn('pnpm', ['run', 'dev']);
+
   stream.value = devProcess.output;
 }
 
